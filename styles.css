@@ -76,13 +76,25 @@ body {
   flex-wrap: wrap;
 }
 
+.card{
+  border-radius: 25px;
+  margin: 2.5%;
+}
+
+.blockquote{
+  border-left: none;
+}
+
 
 #mailbox{
 float: right;
   clear:right;
 }
 
-
+#headerbox{
+  display: flex;
+  justify-content: center;
+}
 
 h1{
   font-family: 'Paytone One', sans-serif;
