@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(45deg, #774F38, #ECE5CE);
+  font-family: 'Noto Sans', sans-serif;
+  color: #515151;
+}
+
+.nav{
+  background-color: #E08E79;
+}
+
+.nav-link, a{
+  color: #ECE5CE;
+  font-family: 'Noto Sans', sans-serif;
+}
+.nav-link:hover, a:hover{
+  color: #C5E0DC;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.jumbotron{
+  background-color: rgba(197,224,220, 0.6);
+
+}
+
+.btn{
+  background-color: #C5E0DC;
+  border-color: #C5E0DC;
+  color: #E08E79;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.btn:hover{
+  background-color:  #E08E79;
+  border-color:  #E08E79;
+  color: #ECE5CE;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.styled-box{
+  background-color: rgba(197,224,220, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+
+}
+
+.box-contents{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image{
+  padding: 2%;
+}
+
+#mailbox{
+float: right;
+  clear:right;
+}
+
+
+
+h1{
+  font-family: 'Paytone One', sans-serif;
+}
