@@ -76,9 +76,10 @@ body {
   flex-wrap: wrap;
 }
 
-.card{
+.quotecard{
   border-radius: 25px;
   margin: 2.5%;
+  background-color: white;
 }
 
 .blockquote{
