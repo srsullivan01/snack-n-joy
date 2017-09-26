@@ -69,7 +69,11 @@ body {
 
 .footerimg{
   max-height: 100px;
+}
 
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
