@@ -3,8 +3,8 @@ body {
   font-family: 'Noto Sans', sans-serif;
   color: #515151;
   display: flex;
- min-height: 100vh;
- flex-direction: column;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 main {
@@ -30,9 +30,8 @@ li, .nav-link:hover, a:hover{
   justify-content: space-between;
 }
 
-.jumbotron{
+.parallax{
   background-color: rgba(197,224,220, 0.6);
-
 }
 
 .btn{
@@ -91,17 +90,18 @@ max-width: 350px;
   border-radius: 25px;
   margin: 2.5%;
   background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.blockquote{
-  border-left: none;
+#horizontalcard{
+  background-color: #FEF9F0;
 }
 
-.bambox{
-  background-color: rgba(197,224,220, 0.6);
+
+.box-content{
   display: flex;
-  flex-direction: column;
-  padding: 1%;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 
@@ -135,5 +135,6 @@ flex-grow: 0;
 
 
 @media only screen and (min-width: 768px) {
-  .aside { flex: 1 auto; }
+
+  .image {flex: 1 auto;}
 }
