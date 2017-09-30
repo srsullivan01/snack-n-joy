@@ -15,6 +15,22 @@ main {
   flex: 1 0 auto;
 }
 
+h1{
+  text-shadow:
+ -1px -1px 0 #4B4B4B,
+  1px -1px 0 #4B4B4B,
+  -1px 1px 0 #4B4B4B,
+   1px 1px 0 #4B4B4B;
+}
+
+h4{
+  color: white;
+  text-shadow:
+ -1px -1px 0 #4B4B4B,
+  1px -1px 0 #4B4B4B,
+  -1px 1px 0 #4B4B4B,
+   1px 1px 0 #4B4B4B;
+}
 
 .nav-wrapper{
   background-color: #E08E79;
@@ -52,19 +68,7 @@ li, .nav-link:hover, a:hover{
   font-family: 'Noto Sans', sans-serif;
 }
 
-.styled-box{
-  background-color: rgba(197,224,220, 0.6);
-  display: flex;
-  flex-direction: column;
-  padding: 2%;
 
-}
-
-.box-contents{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
 .image{
   padding: 2%;
@@ -108,20 +112,6 @@ max-width: 350px;
 #email:hover{
   color: #E08E79;
 }
-
-
-.box-content{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-
-#headerbox{
-  display: flex;
-  justify-content: center;
-}
-
 
 h1{
   font-family: 'Paytone One', sans-serif;

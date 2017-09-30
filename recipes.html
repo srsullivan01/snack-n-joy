@@ -1,133 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!--Materialize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <!-- fonts -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link rel="stylesheet" href="public/font-mfizz-2.4.1/font-mfizz.css">
     <script src="https://use.fontawesome.com/0c4284039b.js"></script>
+      <link rel="stylesheet" href="public/styles.css">
+
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Paytone+One" rel="stylesheet">
-    <!-- local styles -->
-    <link rel="stylesheet" href="public/styles.css">
     <title>Snack n Joy </title>
   </head>
   <body>
-    <!-- Navigation -->
-  <ul class="nav">
-    <li class="nav-item">
-      <a class="nav-link active" href="index.html" >Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" href="about.html">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" href="testimonials.html">Testimonials</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" href="recipes.html">Recipes</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" href="contact.html">Contact</a>
-    </li>
-  </ul>
-  <!-- intro box -->
-  <div class="styled-box">
-    <span>
-      <h1>Recipes</h1>
-      <p>At Snack &amp; Joy we take great pride in using natural, organic, healthy ingredients. We've provided the recipes for each product here so you can make informed choices about what you order!</p>
-    </span>
-  </div>
-  <!-- recipe cards -->
-  <div class = "card-container">
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="public/images/chewy-coca.jpg" alt="chewy cocoa cookies">
-      <div class="card-body">
-        <p class="card-text"><h3>Chewy Cocoa Cookies</h3> Buckwheat flour(organic), Amaranth flour(organic), Millet flour(organic), Cocoa powder, Sucanat, Whole milk yogurt(organic), Unsalted butter(organic), Blood orange olive oil, Coconut oil(organic), Balsamic vinegar, Sea salt. <i>All Dairy products used made from cows not treated with rBST</i></p>
+<!-- navigation -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">Snack n Joy</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="nav-link"><a href="about.html">About</a></li>
+        <li class="nav-link"><a href="contact.html">Contact</a></li>
+        <li class="nav-link"><a href="recipes.html">Recipes</a></li>
+        <li class="nav-link"><a href="testimonials.html">Testimonials</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li class="nav-link"><a href="index.html">Home</a></li>
+        <li class="nav-link"><a href="about.html">About</a></li>
+        <li class="nav-link"><a href="contact.html">Contact</a></li>
+        <li class="nav-link"><a href="recipes.html">Recipes</a></li>
+        <li class="nav-link"><a href="testimonials.html">Testimonials</a></li>
+      </ul>
+    </div>
+  </nav>
+<!-- BAM flour -->
+<div class="parallax-container valign-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col l8 s12">
+        <h1 class="right-align valign">Recipes</h1>
+        <div class="row">
+          <div class="col l4">
 
+          </div>
+        </div>
+      </div>
+     <div class="parallax"><img src="public/images/pexels-photo-271082.jpeg"></div>
+     </div>
+   </div>
+ </div>
+  <!-- cards -->
+<div class="card-container">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="public/images/chewy-coca.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Chewy Cocoa Cookies<i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        <p></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Chewy Cocoa Cookies<i class="fa fa-window-close" aria-hidden="true"></i></span>
+        <p>Buckwheat flour(organic), Amaranth flour(organic), Millet flour(organic), Cocoa powder, Sucanat, Whole milk yogurt(organic), Unsalted butter(organic), Blood orange olive oil, Coconut oil(organic), Balsamic vinegar, Sea salt. All Dairy products used made from cows not treated with rBST</p>
       </div>
     </div>
 
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="public/images/truffles.jpg" alt="blood orange truffles">
-      <div class="card-body">
-        <p class="card-text"><h3>Blood Orange Truffles</h3> Dried dates(organic), Dried Cherries(organic), Dried Cranberries(organic),Dairy-free chocolate chips,Almond butter(organic), Blood Orange olive oil,Coconut oil(organic). balsamic Vinegar,Hemp hearts(organic),Hazelnuts and Almonds. <i>All Dairy products used made from cows not treated with rBST</i> </p>
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="public/images/very-cherry.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Very Cherry Cookies<i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        <p></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Very Cherry and Chocolate Cookies<i class="fa fa-window-close" aria-hidden="true"></i></span>
+        <p>Buckwheat flour(organic), Amaranth flour(organic), Millet flour(organic), Sucanat, Whole milk French vanilla yogurt(organic), Dried cherries(organic), Dairy free chocolate chips (Optional), Unsalted butter(organic), Coconut oil(organic), Orange peel.All Dairy products used made from cows not treated with rBST </p>
       </div>
     </div>
 
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="public/images/very-cherry.jpg" alt="very cherry cookies">
-      <div class="card-body">
-        <p class="card-text"><h3>Very Cherry Cookies</h3>Buckwheat flour(organic), Amaranth flour(organic), Millet flour(organic), Sucanat, Whole milk French vanilla yogurt(organic), Dried cherries(organic), Dairy free chocolate chips (Optional), Unsalted butter(organic), Coconut oil(organic), Orange peel.<i>All Dairy products used made from cows not treated with rBST</i></p>
-
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="public/images/truffles.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Blood Orange Truffles<i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        <p></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Blood Orange Truffles<i class="fa fa-window-close" aria-hidden="true"></i></span>
+        <p>Dried dates(organic), Dried Cherries(organic), Dried Cranberries(organic),Dairy-free chocolate chips,Almond butter(organic), Blood Orange olive oil, Coconut oil(organic). balsamic Vinegar,Hemp hearts(organic),Hazelnuts and Almonds. All Dairy products used made from cows not treated with rBST </p>
       </div>
     </div>
 
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="public/images/BAM-small.jpg" alt="bam flour">
-      <div class="card-body">
-        <p class="card-text"><h3>fresh milled BAMflour</h3> Organic milled Buckwheat, organic milled Amaranth, organic milled Millet,Himalayan Pink Salt, baking soda.</p>
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="public/images/BAM-small.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">BAM Flour<i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        <p></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">BAM Flour<i class="fa fa-window-close" aria-hidden="true"></i></span>
+        <p>Organic milled Buckwheat, organic milled Amaranth, organic milled Millet.</p>
       </div>
     </div>
 
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="http://lorempixel.com/287/191/food/" alt="am flour">
-      <div class="card-body">
-        <p class="card-text"><h3>AM Flour</h3>organic milled Amaranth, organic milled Millet.</p>
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="http://fillmurray.com/320/215">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">AM Flour<i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        <p></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">AM Flour<i class="fa fa-window-close" aria-hidden="true"></i></span>
+        <p> Organic milled Amaranth, organic milled Millet. </p>
       </div>
     </div>
 
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="http://lorempixel.com/287/191/food/" alt="snackin' good crackers">
-      <div class="card-body">
-        <p class="card-text"><h3>Snackin’ Good Crackers</h3> Buckwheat flour(organic), Amaranth flour(organic), Millet flour(organic), Unsalted Butter(organic), Cheddar Cheese(organic), Parmesan Cheese(organic), Cajun Spices, Himalayan Rock Salt. <i>All Dairy products used made from cows not treated with rBST</i> </p>
-
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="http://fillmurray.com/320/215">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Snackin’ Good Crackers<i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        <p></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Snackin’ Good Crackers<i class="fa fa-window-close" aria-hidden="true"></i></span>
+        <p> Buckwheat flour(organic), Amaranth flour(organic), Millet flour(organic), Unsalted Butter(organic), Cheddar Cheese(organic), Parmesan Cheese(organic), Cajun Spices, Himalayan Rock Salt. All Dairy products used made from cows not treated with rBST</p>
       </div>
     </div>
 
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="http://lorempixel.com/287/191/food/" alt="brownie bites">
-      <div class="card-body">
-        <p class="card-text"><h3>Brownie Bites</h3>Buckwheat flour(organic), Amaranth flour(organic), Millet flour(organic), (Either Black Beans(organic), or Nut Butter(organic)), Coco Powder, Whole Milk Yogurt(organic), Sucanat(organic), Coconut Oil(organic), Unsalted Butter(organic), Dairy-Free Chocolate Chips, Eggs*, Balsamic Vinegar.<i>All Dairy products used made from cows not treated with rBST</i></p>
-
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="http://fillmurray.com/320/215">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Brownie Bites<i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        <p></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Brownie Bites<i class="fa fa-window-close" aria-hidden="true"></i></span>
+        <p> Buckwheat flour(organic), Amaranth flour(organic), Millet flour(organic), (Either Black Beans(organic), or Nut Butter(organic)), Coco Powder, Whole Milk Yogurt(organic), Sucanat(organic), Coconut Oil(organic), Unsalted Butter(organic), Dairy-Free Chocolate Chips, Eggs(organic), Balsamic Vinegar. All Dairy products used made from cows not treated with rBST</p>
       </div>
     </div>
 
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="http://lorempixel.com/287/191/food/" alt="farm fresh muffins">
-      <div class="card-body">
-        <p class="card-text"><h3>Farm Fresh Muffins</h3>Buckwheat flour(organic), Amaranth flour(organic), Millet flour(organic), Coconut Oil(organic), Unsalted Butter(organic), Eggs(organic), Sucanat, Whole Milk French Vanilla Yogurt(organic), Seasonal Fruit(organic), Spices. <i>All Dairy products used made from cows not treated with rBST</i>  </p>
-
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="http://fillmurray.com/320/215">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Farm Fresh Muffins<i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        <p></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Farm Fresh Muffins<i class="fa fa-window-close" aria-hidden="true"></i></span>
+        <p> Buckwheat flour(organic), Amaranth flour(organic), Millet flour(organic), Coconut Oil(organic), Unsalted Butter(organic), Eggs(organic), Sucanat, Whole Milk French Vanilla Yogurt(organic), Seasonal Fruit(organic), Spices. All Dairy products used made from cows not treated with rBST </p>
       </div>
     </div>
 
-  </div>
+</div>
+
 <!-- footer -->
-  <footer class="footer">
-    <p>You can find our products at Atlanta Area Whole Foods Markets and at The Peach &amp; The Porkchop</p>
-    <div id="footerpics">
-    <img src="public/images/wfm.jpg" class="footerimg" alt="whole foods logo"> <img src="public/images/PeachandthePorkchopLogoBrand.jpg" class="footerimg" alt="Peach and Porkchop logo">
-    <div>
-  </footer>
-  <!-- jQuery first, then Popper.js, then materialize, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-crossorigin="anonymous"></script>
+<footer class="page-footer">
+<div class="container">
+  <div class="row">
+    <div class="col l6 s12">
+      <p class="grey-text text-lighten-4">Find our products at Atlanta area Whole Foods Markets and at Peach &amp; The Porkchop</p>
+    </div>
+    <div class="col l4 offset-l2 s12">
+      <img class="footerimg" src="public/images/wfm.jpg" alt="whole foods market logo">
+      <img class="footerimg" src="public/images/PeachandthePorkchopLogoBrand.jpg" alt="Peach and Porkchop logo">
+    </div>
+  </div>
+</div>
+</footer>
 
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
-
-
-</body>
+    <!--Import jQuery before materialize.js-->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <script src="https://use.fontawesome.com/692ee80e2d.js"></script>
+    <script src="public/app.js"></script>
+  </body>
 </html>
