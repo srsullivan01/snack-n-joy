@@ -7,6 +7,10 @@ body {
   flex-direction: column;
 }
 
+.collection-item{
+  color: #4B4B4B;
+}
+
 main {
   flex: 1 0 auto;
 }
@@ -97,6 +101,14 @@ max-width: 350px;
   background-color: #FEF9F0;
 }
 
+#email{
+  color: #53777A;
+}
+
+#email:hover{
+  color: #E08E79;
+}
+
 
 .box-content{
   display: flex;
@@ -124,17 +136,4 @@ h1{
 .header{
 font-weight: bold;
 text-align: center;
-}
-
-.aside {
-flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 12em;
-}
-
-
-
-@media only screen and (min-width: 768px) {
-
-  .image {flex: 1 auto;}
 }
