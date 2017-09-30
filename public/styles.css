@@ -2,7 +2,15 @@ body {
   background: linear-gradient(45deg, #774F38, #ECE5CE);
   font-family: 'Noto Sans', sans-serif;
   color: #515151;
+  display: flex;
+ min-height: 100vh;
+ flex-direction: column;
 }
+
+main {
+  flex: 1 0 auto;
+}
+
 
 .nav-wrapper{
   background-color: #E08E79;
@@ -62,7 +70,7 @@ max-width: 350px;
   align: right;
 }
 
-.footer {
+.page-footer {
   color: #ECE5CE;
   background-color: #E08E79;
   display: flex;
